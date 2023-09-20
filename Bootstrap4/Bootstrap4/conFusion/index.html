@@ -24,22 +24,20 @@
 
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
       <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="Navbar">
-          <ul class="navbar-nav mr-auto"> ... </ul>
-        </div>
-
-                     <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>            
+          <div class="collapse navbar-collapse" id="Navbar">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="aboutUs.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>                
-              </ul>            
+                      <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                      <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+              </ul>
+          </div>
       </div>
-    </nav>
+  </nav>
 
 
     <header class="jumbotron">
@@ -55,7 +53,7 @@
           </div>
           <div class="col-12 col-sm align-self-center">
             <img src="img/logo.png" class="img-fluid">
-            <a class="btn-primary btn-lg " role="button" href="#form">Reverse Table</a>     
+            <button class="btn-warning btn-lg " role="button" href="#form">Reverse Table</button>     
         </div>
          
       </div>
@@ -95,7 +93,7 @@
               <div class="media-body">
                 <div class="col col-sm col-md">
                   <h2>Weekend Grand Buffet <span class="badge badge-danger d-inline top-100">NEW</span></h2>
-                  <p>
+                  <p class="d-none d-sm-block">
                     Featuring mouthwatering combinations with a choice of five different
                     salads, six enticing appetizers, six main entrees and five choicest
                     desserts. Free flowing bubbly and soft drinks. All for just $19.99
@@ -111,6 +109,9 @@
             </div>
 
             <div class="row row-content align-items-center ">
+              <div class="d-flex col col-sm-3 col-md-3 order-sm-last ">
+                <h3>Meet our Culinary Specialists</h3>
+              </div>
               <div class="col col-sm order-sm-first col-md"> 
                 <div class="media">
                   <img class="d-flex mr-3 img-thumbnail align-self-center"
@@ -125,10 +126,6 @@
                           </p>
                   </div>
                 </div>
-              </div>
-              
-              <div class="d-flex col col-sm-3 col-md-3 order-sm-last ">
-                <h3>Meet our Culinary Specialists</h3>
               </div>
             </div>
 
@@ -171,7 +168,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                          <label for="text" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                          <label for="text" class="col-12 col-md-2 col-form-label">Date and Time</label>
                           <div class="col-5 col-md-4">
                               <input type="tel" class="form-control" placeholder="Date">
                           </div>
