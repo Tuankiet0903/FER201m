@@ -96,11 +96,11 @@
               your culinary senses!
             </p>
           </div>
+          <img src="img/logo.png" class="img-fluid col-sm" >
           <div class="col-12 col-sm align-self-center">
-            <img src="img/logo.png" class="img-fluid">
             <a role="button" class="btn btn-block nav-link btn-warning"
-            data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
-            data-placement="bottom" href="#reserveform">Reserve Table</a>
+            data-toggle="modal" data-html="true"
+            data-placement="bottom" data-target="#reverseModal">Reserve Table</a>
         </div>
          
       </div>
@@ -241,60 +241,82 @@
               </div>
             </div>
 
-            <div class="row row-content align-items-center " id="form">
-              <div class="col-12 col-sm-6">
-                <div class="card">
-                    <h3 class="card-header bg-warning text-white">Facts At a Glance</h3>
-                    <div class="card-body pb-0">
-                        <div class="row form-group">
-                          <div class="col-sm-3 mb-3">Number of Guest</div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="a">1
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="a">2
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="a">3
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="a">4
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="a">5
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="a">6
-                              </label>
-                            </div>
+              <div id="reverseModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-lg" role="content">
+                    <!-- Modal content-->
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Reverse a Table</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
-                        <div class="form-group row">
-                          <label for="text" class="col-12 col-md-2 col-form-label">Date and Time</label>
-                          <div class="col-5 col-md-4">
-                              <input type="tel" class="form-control" placeholder="Date">
-                          </div>
-                          <div class="col-4 col-md-4">
-                              <input type="text" class="form-control"  placeholder="Time">
+                        <div class="modal-body">
+                            <form>
+                              <div class="card">
+                                <div class="row form-group mt-5">
+                                  <div class="col-sm-3 mb-3">Number of Guest</div>
+                                    <div class="form-check">
+                                      <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="a">1
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="a">2
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="a">3
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="a">4
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="a">5
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="a">6
+                                      </label>
+                                    </div>
+                                </div>
+                                <div class="row form-group mb-4">
+                                  <div class="col-sm-3 mb-3">Section</div>
+                                  <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-success active">Non-Smoking</button>
+                                    <button type="button" class="btn btn-danger">Smoking</button>
+                                  </div>                                  
+                                </div>
+                                <div class="form-group row">
+                                  <label for="text" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                                  <div class="col-5 col-md-4">
+                                      <input type="tel" class="form-control" placeholder="Date">
+                                  </div>
+                                  <div class="col-4 col-md-4">
+                                      <input type="text" class="form-control"  placeholder="Time">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <div class="col-md-2"></div>
+                                  <div class="col-md-4">
+                                    <button type="button" class="btn btn-secondary ml-auto" data-dismiss="modal">Cancel</button>
+                                    <button class="btn btn-primary">Reverse</button>
+                                  </div>
+                               
+                                </div>
+                            </div>
+                              </form>
                           </div>
                       </div>
-                    </div>
-                    <div class="form-group row">
-                      <div class="col-md-2"></div>
-                      <button class="btn btn-primary">Reverse</button>
-                    </div>
-                </div>
-            </div>
+                  </div>
+              </div>
+
+
             </div>
         
       </div>
