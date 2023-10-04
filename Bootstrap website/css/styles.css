@@ -1,0 +1,67 @@
+:root{
+    --background-color : #000;
+    --font-color : #fff;
+}
+
+
+
+.navbar{
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+.shopping-cart:hover{
+    color: #fff;
+}
+
+
+.carousel {
+    background:#000000;
+}
+
+.carousel-item img{
+    max-height: 700px;
+    object-fit: contain;
+}
+
+
+.product-section{
+    height: 100%;
+
+}
+
+.card{
+    height: 100%;
+}
+
+.col-lg{
+    min-width: 20%;
+}
+
+.col-sm-6{
+    width: 50%;
+}
+
+.card:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+.footer{
+    background-color: var(--background-color);
+    color: var(--font-color)
+}
+
+.btn-social-icon{
+    color: var(--font-color);
+    border: 1px solid #fff;
+}
+
+.btn-social-icon:hover{
+    color: #000;
+    background-color: #fff;
+}

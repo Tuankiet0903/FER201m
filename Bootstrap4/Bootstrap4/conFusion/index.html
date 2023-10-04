@@ -260,43 +260,45 @@
                         </div>
                         <div class="modal-body">
                             <form>
-                              <div class="card">
+                          
                                 <div class="row form-group mt-5">
-                                  <div class="col-sm-3 mb-3">Number of Guest</div>
-                                    <div class="form-check">
-                                      <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="a">1
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="a">2
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="a">3
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="a">4
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="a">5
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="a">6
-                                      </label>
+                                  <div class="col-sm-2 mb-3">Number of Guest</div>
+                                    <div class="pl-3 d-inline-flex">
+                                      <div class="form-check">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="a">1
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="a">2
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="a">3
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="a">4
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="a">5
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="a">6
+                                        </label>
+                                      </div>
                                     </div>
                                 </div>
                                 <div class="row form-group mb-4">
-                                  <div class="col-sm-3 mb-3">Section</div>
-                                  <div class="btn-group" role="group" aria-label="Basic example">
+                                  <div class="col-sm-2 mb-3">Section</div>
+                                  <div class="btn-group pl-3" role="group" aria-label="Basic example">
                                     <button type="button" class="btn btn-success active">Non-Smoking</button>
                                     <button type="button" class="btn btn-danger">Smoking</button>
                                   </div>                                  
@@ -318,7 +320,7 @@
                                   </div>
                                
                                 </div>
-                            </div>
+                            
                               </form>
                           </div>
                       </div>
@@ -331,7 +333,7 @@
       </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer"> 
       <div class="container">
         <div class="row">
           <div class="col-4 offset-1  col-sm-2">
@@ -379,22 +381,8 @@
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function(){
-          $('[data-toggle="tooltip"]').tooltip();
-      });
-    </script>
-    <script>
-      $(document).ready(function(){
-          $("#mycarousel").carousel( { interval: 2000 } );
-          $("#carousel-pause").click(function(){
-              $("#mycarousel").carousel('pause');
-          });
-          $("#carousel-play").click(function(){
-              $("#mycarousel").carousel('cycle');
-          });
-      });
-    </script>
+    <script src="js/scripts.js"></script>
+     
 
   </body>
 </html>

@@ -63,4 +63,11 @@ body{
     z-index: 1;
 }
 
-    
+.modal-header{
+    background-color: #512DA8;
+    color: #fff;
+}
+
+.modal-body{
+    background-color: #b19ed0 ;
+}
