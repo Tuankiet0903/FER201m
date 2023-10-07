@@ -1,8 +1,8 @@
-import logo from './img/fw2vuujpieb71.png';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { Navbar, NavbarBrand } from 'reactstrap';
+import Menu from './component/MenuComponent';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
             <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
           </div>
         </Navbar>
+        <Menu/>
       </div>
   );
 }
